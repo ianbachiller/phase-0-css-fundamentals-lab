@@ -3,3 +3,24 @@ body {
   height: 100%;
   margin: 0;
 }
+nav > a{
+  background: rgba(187, 187, 187, 0.8);
+  margin-right: 5px;
+}
+header {  
+  text-align: center;
+}
+section[id="featured-property"]{
+  text-align: center;
+  p {
+    margin: 210px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+section[id="details"]{
+  text-align: center;
+  background: rgb(255,0,0);
+  column-count: 4;
+
+}
